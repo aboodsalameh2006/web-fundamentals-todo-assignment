@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "/get.php?stdid=" +
         STUDENT_ID +
         "&key=" +
-        API_KEY
+        API_KEY 
     )
         .then((res) => res.json())
         .then((data) => {
